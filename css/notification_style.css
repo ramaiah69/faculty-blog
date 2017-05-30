@@ -1,0 +1,73 @@
+
+.form
+	{
+		background-image: url("../images/sky2.jpg");
+		margin-left:20%;
+		margin-right:20%;
+		margin-top:1%;
+		border-radius:10px;
+		padding:0px 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
+		rgba(0,0,0,0.19);
+	}	
+	.form2
+	{
+	/* background:linear-gradient(to bottom,#BAD0FF,#BAD0FF);*/
+		background-color:#DCDCDC;
+		margin-left:20%;
+		margin-right:20%;
+		margin-top:1%;
+		border-radius:10px;
+		padding:0px 10px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
+		rgba(0,0,0,0.19);
+	}
+	html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+	input,select
+	{
+		height:35px;
+		width:25%;
+		min-width:200px;
+		padding:2px 10px;
+		-webkit-padding:2px 10px;
+	}
+	input:active,input:focus,select:focus,select:active{
+		
+		border:1px solid black;
+		box-shadow:1px #0080FF;
+	}
+	input[type=file]
+	{
+		
+		box-shadow:0px;
+	}
+	option
+	{
+		height:32px;
+		padding:0px 10px;
+	}
+	select{
+		}
+	textarea
+	{
+		border:1px solid black;
+		padding:5px 10px;
+	}
+	.disabled
+	{
+		background-color:#D0D0D0;
+	}
+	.disabled:hover
+	{
+		cursor:not-allowed;
+	}
+	.hr
+	{
+		width:40%;
+		color:#FF6A22
+	}
+	.hidden
+	{
+		display:none;
+	}
+

@@ -1,0 +1,73 @@
+html{overflow-y:scroll;}
+body,p,print{font-family:verdana,helvetica,arial,sans-serif;}
+img{border:0;}
+body {font-size:14px;color:black;background-color:#f1f1f1;margin:0px;}
+div {width:100%;margin:0;padding:0;}
+#top {height:140px;margin:auto;}
+#smallnavContainer {width:1200;display:block;position:fixed;z-index:1000;top:0;height:auto;background-color:#21638A;opacity:0.99;color:white}
+#smallnav {height:44px;margin-top:6px;}
+span.title
+{
+	width:100%;
+	min-height:30px;
+	font-family:century schoolbook;
+	margin-left:2.127659574468085%;
+	font-weight:bold;
+	
+}
+.title
+{
+	font-size:30px;
+}
+sub
+{
+	font-size:14px;
+}
+.pullleft {float:left;}
+.pullright {float:right;}
+.small-logo{height:30px;width:30px;}
+#page
+ {width:748px;margin:0;background-color:#ffffff;padding-left:10px;padding-bottom:0px;margin-bottom:290px;box-shadow:none;
+ }
+
+
+
+
+
+@media only screen and (max-device-width: 768px) {
+body {background-color:#ffffff;}
+#top {width:748px;height:170px;margin:initial;margin-top:50px;background-image:url('w3frontimage.png');background-repeat:no-repeat;background-position:-30px 0;}
+#page {width:748px;margin:0;background-color:#ffffff;padding-left:10px;padding-bottom:0px;margin-bottom:290px;box-shadow:none;}
+#leftcol {margin-top:15px;}
+#maincol {width:540px;float:left;}
+h1.js {display:block;}
+h1.javascript {display:none;}
+div.box1 {float:left;width:540px;margin-top:20px;margin-bottom:0;}
+div.box1 h1 {margin-left:20px;}
+a.btn {margin-left:0;width:220px;}
+.tutlogo {width:290px;float:left;overflow:auto;}
+div.image {margin-bottom:30px;}
+.tutbuttons {width:180px;float:left;}
+div.boxDemo {margin-left:0;width:486px;font-size:70%;}
+div.boxDemo a.btn {text-align:center;width:300px;float:left;margin-left:80px;background-color:#ffffff;}
+div.box3 {float:left;width:250px;margin-top:30px;}
+.box3 a {margin-top:14px;margin-bottom:30px;}
+.box3 a.btn {margin-left:0;}
+div.boxRef {float:none;position:absolute;left:10px;top:1160px;width:195px;}
+div.boxRef h1 {font-size:17px;height:initial;padding-top:initial;}
+#colorpickerContainer div {width:100px;height:70px;margin-left:120px;margin-top:14px;background-image:url('images/colorpicker.gif');background-repeat:no-repeat;}
+#colorpickerContainer h3 {padding-left:108px;}
+#bottomContainer {width:748px;background-color:#f1f1f1;border-top:1px solid #e3e3e3;padding:10px;}
+#bottom1 {width:748px;margin:initial;height:35px;padding-left:0;padding-right:0;}
+#bottomLogo {width:300px;float:left;padding-top:6px;margin-left:10px;}
+#fblikeContainer {width:100px;float:left;margin-top:8px;}
+div.about {width:280px;}
+.bottom {width:740px;margin:initial;padding-top:10px;}
+.bottom div {text-align:center;font-size:9px;}
+#searchSection {display:none;position:fixed;top:0;background-color:#aaaaaa;height:70px;padding:30px;opacity:0.99;width:710px;float:none;margin-top:49px;}
+/* Navbar for smaller devices*/
+#smallnavContainer {width:770px;display:block;position:fixed;z-index:1000;top:0;height:50px;background-color:#aaaaaa;opacity:0.99;}
+#smallnav {height:44px;margin-top:6px;}
+#smallnav #menuSearchDIV {position:relative;float:right;width:50px;height:44px;margin-right:10px;cursor: pointer;background-image: url('images/navsearch.gif');background-repeat: no-repeat;	background-position: 0 6px;}
+#closeSearchBTN {display:none;position:absolute;top:60px;right:10px;background-color:#000000;color:#d3d3d3;width:15px;height:19px;font-weight:bold;padding-left:5px;padding-top:1px;border-radius:4px;}
+}

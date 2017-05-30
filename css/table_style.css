@@ -1,0 +1,32 @@
+
+		th
+		{
+			background-color:#B04C78;
+			font-family:arial;
+			color:white;
+		}
+		.even
+		{
+			background-color:#FEFEFE;
+		}
+		.odd
+		{
+			background-color:#F7F7F7;
+		}
+		
+		tr:hover
+		{
+			background-color:#ECECEC;
+		}
+		
+		a:hover
+		{
+			
+			text-decoration:underline;
+		}
+		table,tr,td
+		{
+			border:1px solid #C5C5C5;
+		
+		}
+		

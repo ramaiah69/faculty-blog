@@ -1,0 +1,37 @@
+body
+		{
+			
+			font-family:sans-serif;
+		}
+		#pub{
+			background-color:#E9E9E9;
+			border-right:1px solid #C7CEF4;
+			border-top:1px solid #C7CEF4;
+			border-bottom:1px solid #C7CEF4;
+			border-left:8px solid #008000;
+			height:relative;
+			width:90%;
+			min-height:100px;
+			border-radius:2px;
+			padding:20px;
+			border-radius:10px 0px 0px 10px;;
+			
+		}
+		
+		#head
+		{
+			font-size:17px;
+			color:#000080;
+			font-family:arial;
+		}
+		#msg{
+			font-weight:100;
+			font-family:times new roman;
+			margin-left:12px;
+			text-indent:25px;
+			line-height:125%;
+			color:#000000;
+			font-size:16px;
+			text-align:left;
+		}		
+		
