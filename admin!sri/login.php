@@ -1,7 +1,7 @@
 <?php
 	$err="";
 	//Checking authority
-	require "../session_check.php";
+	require "session_check.php";
 	if($login_entry_status)	
 		{
 			header("location:admin_panel.php");
@@ -105,9 +105,8 @@
 						$date=date("Y-m-d");
 						mysql_query("insert into admin_data (ip,mac,date,time,type) values('$ip','$mac','$date','$time','admin')");
 					require '../requires/session.php';
-					$_SESSION['RAMAIAH@user']=$userid;
-					$_SESSION['user@PVK']='kr!shn@#';
-					$_SESSION['BEYOND']='r@m@i@h#';
+					$_SESSION['user']=$userid;
+					
 					
 					header("location:admin_panel.php");
 					
