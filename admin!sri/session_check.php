@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	if(isset($_SESSION['RAMAIAH@user']) && isset($_SESSION['user@PVK']) && isset($_SESSION['BEYOND']))
+	if(isset($_SESSION['user']))
 	{
 		$login_entry_status=true;
 	}
